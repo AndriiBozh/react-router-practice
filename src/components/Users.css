@@ -1,0 +1,16 @@
+.users-container {
+  margin-left: 20px;
+}
+
+.users-container li {
+  list-style: none;
+  background-color: rgb(249, 245, 245);
+  padding: 10px;
+}
+
+.users-grid-container {
+  display: inline-grid;
+  grid-template-rows: min-content;
+  row-gap: 1px;
+  background-color: rgb(177, 168, 168);
+}

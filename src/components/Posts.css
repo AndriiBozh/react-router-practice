@@ -1,0 +1,14 @@
+.posts-container li {
+  list-style: none;
+  background: white;
+  padding: 10px;
+}
+
+.posts-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(50px, auto);
+  background-color: rgb(210, 209, 209);
+  column-gap: 2px;
+  row-gap: 2px;
+}

@@ -1,0 +1,34 @@
+.navbar {
+  width: 100%;
+  height: 3rem;
+  background-color: rgb(157, 152, 152);
+  position: fixed;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+  list-style: none;
+}
+
+/* <Link /> components are rendered as <a> elements into the dom, so they should be styled as <a> elements */
+.navbar a {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-right: 15px;
+  transition: color 0.7s;
+}
+
+.navbar a:hover {
+  color: rgb(72, 69, 69);
+}
+
+.navbar a.active {
+  color: rgb(82, 79, 79);
+}

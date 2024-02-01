@@ -1,0 +1,21 @@
+.user-container {
+  margin-top: 5rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+
+  padding: 10px 20px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.user-container p {
+  padding: 5px;
+}
+
+.user-details {
+  display: inline-block;
+  width: 6rem;
+  font-weight: bold;
+}
